@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>task4</title>
+    <style>
+        label {
+            display: inline-block;
+            width:100px ; /* Adjust width as needed */
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+
+        <label for="Full Name">username:</label>
+        <input type="text" id="fullname" placeholder="Full Name">
+        <br>
+        
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="User name"><br>
+
+
+        <label for="password">password:</label>
+        <input type="password" id="password"><br>
+        <label for="Re-password">Re-password:</label>
+        <input type="password" id="password"><br>
+
+
+        <label for="Address">Address:</label>
+        <input type="address" id="Addess" placeholder="Address">
+        <br>
+
+        <label for="age">age:</label>
+        <input type="number" id="age" min="0" max="99" value="0"><br>
+
+
+        <label for="Gender">Gender</label>
+        <select id="gender">
+            <option value="female">female</option>
+            <option value="male">male</option>
+            <option value="non-binary">non-binary</option>
+        </select><br>
+        
+        <input type="submit" value="Save">
+
+    </form>
+
+</body>
+</html>
